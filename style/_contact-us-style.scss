@@ -1,0 +1,251 @@
+/*
+███████╗░█████╗░██╗░░░░░██╗░░░░░░█████╗░░██╗░░░░░░░██╗  ░██╗░░░░░░░██╗██████╗░░██████╗░░░░░█████╗░
+██╔════╝██╔══██╗██║░░░░░██║░░░░░██╔══██╗░██║░░██╗░░██║  ░██║░░██╗░░██║╚════██╗██╔════╝░░░░██╔══██╗
+█████╗░░██║░░██║██║░░░░░██║░░░░░██║░░██║░╚██╗████╗██╔╝  ░╚██╗████╗██╔╝░█████╔╝██║░░██╗░░░░██║░░██║
+██╔══╝░░██║░░██║██║░░░░░██║░░░░░██║░░██║░░████╔═████║░  ░░████╔═████║░░╚═══██╗██║░░╚██╗░░░██║░░██║
+██║░░░░░╚█████╔╝███████╗███████╗╚█████╔╝░░╚██╔╝░╚██╔╝░  ░░╚██╔╝░╚██╔╝░██████╔╝╚██████╔╝██╗╚█████╔╝
+╚═╝░░░░░░╚════╝░╚══════╝╚══════╝░╚════╝░░░░╚═╝░░░╚═╝░░  ░░░╚═╝░░░╚═╝░░╚═════╝░░╚═════╝░╚═╝░╚════╝░
+
+░█████╗░███╗░░██╗  ██╗███╗░░██╗░██████╗████████╗░█████╗░
+██╔══██╗████╗░██║  ██║████╗░██║██╔════╝╚══██╔══╝██╔══██╗
+██║░░██║██╔██╗██║  ██║██╔██╗██║╚█████╗░░░░██║░░░███████║
+██║░░██║██║╚████║  ██║██║╚████║░╚═══██╗░░░██║░░░██╔══██║
+╚█████╔╝██║░╚███║  ██║██║░╚███║██████╔╝░░░██║░░░██║░░██║
+░╚════╝░╚═╝░░╚══╝  ╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝
+*/
+
+.body {
+    background-color: white;
+    color: #16191e;
+}
+
+.reset-link-contact {
+    color: #16191e;
+}
+
+.section2 {
+    margin-top: 80px;
+
+    .contact-us-form {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            .text-left {
+                font-size: 45px;
+                line-height: 50px;
+            }
+
+            .text-left-phone {
+                display: none;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            .text-left2 {
+                margin-top: 10px;
+                margin-bottom: 20px;
+                font-weight: 300;
+                display: block;
+            }
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+
+            .input1 {
+                margin-bottom: 50px;
+                border: none;
+                border-bottom: 1px solid lightgray;
+                width: 400px;
+                font-size: 28px;
+                transition: 0.3s;
+            }
+
+            .input1:focus {
+                outline: 0;
+            }
+
+            .input1:hover {
+                border-bottom: 1px solid black;
+            }
+
+            .input2 {
+                margin-bottom: 50px;
+                border: none;
+                border-bottom: 1px solid lightgray;
+                width: 400px;
+                font-size: 28px;
+                transition: 0.3s;
+            }
+
+            .input2:focus {
+                outline: 0;
+            }
+
+            .input2:hover {
+                border-bottom: 1px solid black;
+            }
+
+            .input3 {
+                border: none;
+                border-bottom: 1px solid lightgray;
+                width: 400px;
+                font-size: 28px;
+                transition: 0.3s;
+            }
+
+            .input3-text {
+                margin-bottom: 50px;
+                margin-top: 10px;
+                font-size: 14px;
+                font-weight: 300;
+            }
+
+            .input3:focus {
+                outline: 0;
+            }
+
+            .input3:hover {
+                border-bottom: 1px solid black;
+            }
+
+            .input4 {
+                border: none;
+                border-bottom: 1px solid lightgray;
+                width: 400px;
+                font-size: 28px;
+                transition: 0.3s;
+            }
+
+            .input4-text {
+                margin-top: 10px;
+                font-size: 14px;
+                margin-bottom: 50px;
+                font-weight: 300;
+            }
+
+            .input4:focus {
+                outline: 0;
+            }
+
+            .input4:hover {
+                border-bottom: 1px solid black;
+            }
+
+            .send-form-btn {
+                border: none;
+                text-decoration: underline;
+                font-size: 30px;
+                background-color: transparent;
+                font-style: italic;
+                transition: 0.3s;
+            }
+
+            .send-form-btn:hover {
+                color: #EE7600;
+            }
+        }
+    }
+
+}
+
+.footer-bottom {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding-top: 50px;
+    position: relative;
+    margin: auto;
+
+    .top {
+        display: flex;
+
+        .text1-footer-bottom {
+            margin-right: 35px;
+            font-weight: 300;
+            color: lightgray;
+        }
+
+        .text2-footer-bottom {
+            @extend .text1-footer-bottom;
+            color: black;
+        }
+
+        .text3-footer-bottom {
+            @extend .text1-footer-bottom;
+            color: black;
+        }
+
+        .text4-footer-bottom {
+            @extend .text1-footer-bottom;
+            color: black;
+        }
+    }
+
+    .bottom {
+        margin-top: 50px;
+        width: 100%;
+        padding-top: 50px;
+        border-top: 1px solid lightgray;
+        display: flex;
+        justify-content: space-between;
+
+        .email {
+            color: #EE7600;
+            font-weight: 500;
+            font-style: italic;
+            font-size: 16px;
+            text-decoration: underline;
+        }
+
+        .text-container {
+            display: flex;
+
+            .text1 {
+                color: black;
+                margin-right: 20px;
+                @extend .email;
+            }
+
+            .text2 {
+                @extend .text1;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1026px) and (min-width: 708px) {
+    .contact-us-form {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 708px) {
+    .contact-us-form {
+        flex-direction: column;
+
+
+        .text1-footer-bottom {
+            margin-right: 34px;
+        }
+
+        .text2-footer-bottom {
+            margin-right: 34px;
+        }
+
+        .text3-footer-bottom {
+            margin-right: 34px;
+        }
+
+        .text4-footer-bottom {
+            margin-right: 34px;
+
+        }
+
+    }
+}
